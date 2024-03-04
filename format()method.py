@@ -1,0 +1,5 @@
+name=input("Enter your name: ")
+branch=input("Enter your branch name: ")
+year=int(input("Enter your year of joining: "))
+output="My name is {0} from {1} joined in the year {2}".format(name,branch,year)
+print(output)
